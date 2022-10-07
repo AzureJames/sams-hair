@@ -12,8 +12,11 @@ License URI: LICENSE
 Text Domain: sams-hair
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
+
+
+//////////////////GO TO LINE 970 FOR OUR STYLES BEGINNING/////////////
+
+
 
 sams-hair is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
@@ -66,6 +69,13 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+main p {
+	color: red;
+}
+body h1, h2 {
+	color: green;
+}
+
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
@@ -967,3 +977,25 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -140,6 +140,7 @@ add_action( 'widgets_init', 'sams_hair_widgets_init' );
 function sams_hair_scripts() {
 	wp_enqueue_style( 'sams-hair-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'sams-hair-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'our-style', get_template_directory_uri() . '/our-style.css',false,'1.1','all');
 
 	wp_enqueue_script( 'sams-hair-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
