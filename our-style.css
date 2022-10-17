@@ -1,3 +1,47 @@
+/* ----INDEX---- */
+/* OUR TYPOGRAPHY */
+/* OUR GLOBAL */
+/* OUR HEADER */
+/* OUR PAGE: HOME */
+/* OUR PAGE: ABOUT */
+/* OUR PAGE: SERVICES */
+/* OUR PAGE: CONTACT */
+/* OUR PAGE: FOOTER */
+
+
+
+/* OUR TYPOGRAPHY */
+
 main p {
     background-color: blue;
 }
+
+/* OUR GLOBAL */
+
+/* OUR HEADER */
+
+#masthead {
+    display: flex;
+    background-color: gray;
+    height: 4rem;
+}
+
+#primary-menu {
+    gap: 2rem;
+}
+
+.hamburger-icon {
+    display: absolute;
+}
+
+.custom-logo {
+    height: 4rem;
+    width: auto;
+}
+
+/* OUR PAGE: HOME */
+/* OUR PAGE: ABOUT */
+/* OUR PAGE: SERVICES */
+/* OUR PAGE: CONTACT */
+/* OUR PAGE: FOOTER */
+

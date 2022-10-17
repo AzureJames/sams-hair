@@ -1,5 +1,6 @@
 <?php
 /**
+ * PROBABLY COMPLETELY STATIC, OTHERWISE CUSTOM POST TYPE
  * The main template file
  *
  * This is the most generic template file in a WordPress theme

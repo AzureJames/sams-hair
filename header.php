@@ -45,6 +45,7 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
+			<img src="https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger.png" height="64" alt="top menu" class="hamburger-icon">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'sams-hair' ); ?></button>
 			<?php
 			wp_nav_menu(
@@ -54,5 +55,6 @@
 				)
 			);
 			?>
+			
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
