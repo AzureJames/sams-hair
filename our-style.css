@@ -24,19 +24,67 @@ main p {
     display: flex;
     background-color: gray;
     height: 4rem;
+    justify-content: space-between;
 }
 
 #primary-menu {
     gap: 2rem;
 }
 
+.menu-primary-nav-container {
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+    padding-top: 4rem;
+}
+
+.menu-primary-nav-container li {
+    margin-bottom: 1rem;
+}
+
+.main-navigation {
+    width: auto;
+}
+
 .hamburger-icon {
-    display: absolute;
+    position: absolute;
+    height: 3.5rem;
+    right: 20px;
+    width: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .hamburger-icon {
+        display: none;
+        height: 0;
+    }
+
+    .menu-primary-nav-container {
+        padding-top: 1rem;
+    }
+    
 }
 
 .custom-logo {
     height: 4rem;
     width: auto;
+}
+
+.menu-toggle {
+    border: none;
+    position: absolute;
+    right: 1rem;
+    width: 3.5rem;
+    z-index: 3;
+    height: 3.5rem;
+    background: url("https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger.png");
+}
+
+.toggled {
+    width: 100vw;
+    background: gray;
+    height: 15rem;
+    position: absolute;
 }
 
 /* OUR PAGE: HOME */
@@ -45,3 +93,14 @@ main p {
 /* OUR PAGE: CONTACT */
 /* OUR PAGE: FOOTER */
 
+.site-footer {
+    height: 17rem;
+    background-color: gray;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footer-social {
+    display: flex;
+    gap: 1rem;
+}
