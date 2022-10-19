@@ -54,6 +54,6 @@
 				)
 			);
 			?>
-			<img src="https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger.png" alt="top menu" class="hamburger-icon">
+			<img src="https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger-1.png" alt="top menu" class="hamburger-icon">
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
