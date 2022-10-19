@@ -1,3 +1,147 @@
+
+/* ----INDEX---- */
+/* OUR TYPOGRAPHY */
+/* OUR GLOBAL */
+/* OUR HEADER */
+/* OUR PAGE: HOME */
+/* OUR PAGE: ABOUT */
+/* OUR PAGE: SERVICES */
+/* OUR PAGE: CONTACT */
+/* OUR PAGE: FOOTER */
+
+
+
+/* OUR TYPOGRAPHY */
+
+h1 {
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--whitish);
+}
+
+h2 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--whitish);
+}
+
+main p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--whitish);
+}
+
+a {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--whitish);
+}
+
+/* OUR GLOBAL */
+
+:root {
+    --whitish: #F9F9F9;
+    --ltgray: #D2CCC8;
+    --dkgray: #2C2B2D;
+    --blackish: #131313;
+    --redgray: #3C3233;
+    --tangray: #D8C8AF;
+    --yellow: #DDC271;
+    --orangish: #97531F; 
+}
+
+.small-img {
+    width: 60px;
+    height: auto;
+    border-radius: 100%;
+}
+
+/* OUR HEADER */
+
+#masthead {
+    display: flex;
+    height: 4rem;
+    background-color: var(--blackish);
+    justify-content: space-between;
+}
+
+#primary-menu {
+    gap: 2rem;
+}
+
+.menu-primary-nav-container {
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+    padding-top: 4rem;
+}
+
+.menu-primary-nav-container li {
+    margin-bottom: 1rem;
+}
+
+.main-navigation {
+    width: auto;
+}
+
+.hamburger-icon {
+    position: absolute;
+    height: 3.5rem;
+    right: 20px;
+    width: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .hamburger-icon {
+        display: none;
+        height: 0;
+    }
+
+    .menu-primary-nav-container {
+        padding-top: 1rem;
+    }
+    
+}
+
+.custom-logo {
+    height: 4rem;
+    width: auto;
+}
+
+.menu-toggle {
+    border: none;
+    position: absolute;
+    right: 1rem;
+    width: 3.5rem;
+    z-index: 3;
+    height: 3.5rem;
+    background: url("https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger.png");
+}
+
+.toggled {
+    width: 100vw;
+    height: 15rem;
+    position: absolute;
+    background-color: var(--blackish);
+}
+
+/* OUR PAGE: HOME */
+/* OUR PAGE: ABOUT */
+/* OUR PAGE: SERVICES */
+/* OUR PAGE: CONTACT */
+/* OUR PAGE: FOOTER */
+
+.site-footer {
+    height: 17rem;
+    background-color: var(--blackish);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footer-social {
+    display: flex;
+    gap: 1rem;
+}
 /* ----INDEX---- */
 /* OUR TYPOGRAPHY */
 /* OUR GLOBAL */

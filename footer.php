@@ -13,29 +13,17 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<p>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sams-hair' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__("Contact Information"));
+				printf( esc_html__( 'Proudly powered by %s', 'sams-hair' ), 'WordPress' );
 				?>
-			</p>
-			<p>
+			</a>
+			<span class="sep"> | </span>
 				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__("Available Hours"));
+				/* translators: 1: Theme name, 2: Theme author. */
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'sams-hair' ), 'sams-hair', '<a href="http://underscores.me/">Underscores.me</a>' );
 				?>
-			</p>
-			<ul class="footer-social">
-				<li><a href="#"><img src="" alt="">a</a></li>
-				<li><a href="#"><img src="" alt="">b</a></li>
-				<li><a href="#"><img src="" alt="">c</a></li>
-			</ul>
-			<p>
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__("Copyright Sam Lebel"));
-				?>
-			</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
