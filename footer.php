@@ -11,29 +11,36 @@
 
 ?>
 
+
+
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<p>
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__("Contact Information"));
+				printf( esc_html__("Unit 140 16 Renault Cres. St Albert"));
 				?>
 			</p>
 			<p>
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__("Available Hours"));
+				printf( esc_html__("samstyres@hotmail.com"));
+				?>
+			</p>
+			<p>
+				<?php
+				/* translators: %s: CMS name, i.e. WordPress. */
+				printf( esc_html__("780-470-0124"));
 				?>
 			</p>
 			<ul class="footer-social">
-				<li><a href="#"><img src="" alt="">a</a></li>
-				<li><a href="#"><img src="" alt="">b</a></li>
-				<li><a href="#"><img src="" alt="">c</a></li>
+				<li><a href="#"><img src="https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger-1.png" alt="instagram logo"></a></li>
+				<li><a href="#"><img src="https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger-1.png" alt="fb logo"></a></li>
 			</ul>
 			<p>
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__("Copyright Sam Lebel"));
+				printf( esc_html__("© Sam Kwetio Hairstyles"));
 				?>
 			</p>
 		</div><!-- .site-info -->
