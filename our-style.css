@@ -15,21 +15,39 @@
 
 h1 {
     font-size: 42px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--whitish);
+    font-family: 'Amiri', serif;
+    font-weight: bold;
+    color: var(--dkgray);
 }
 
 h2 {
-    font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--whitish);
+    font-size: 36px;
+    font-family: 'Amiri', serif;
+    color: var(--dkgray);
 }
 
 p,
 main p {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    color: var(--whitish);
+    color: var(--dkgray);
+}
+
+@media screen and (min-width: 768px) {
+
+    p, main p, a {
+        font-size: 22px;
+    }    
+
+    h1 {
+        font-size: 66px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -41,8 +59,8 @@ main p {
 
 a {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--whitish);
+    font-family: 'Poppins', sans-serif;
+    color: var(--dkgray);
 }
 
 .entry-title {
@@ -53,8 +71,8 @@ a {
 
 :root {
     --whitish: #F9F9F9;
-    --ltgray: #D2CCC8;
-    --dkgray: #2C2B2D;
+    --ltgray: #E3E3E3;
+    --dkgray: #2C2B2D;  
     --blackish: #131313;
     --redgray: #3C3233;
     --tangray: #D8C8AF;
@@ -69,7 +87,7 @@ a {
 }
 
 .site-main {
-    background-color: var(--dkgray);
+    background-color: var(--ltgray);
 }
 
 main article {
@@ -81,7 +99,7 @@ main article {
 #masthead {
     display: flex;
     height: 4rem;
-    background-color: var(--blackish);
+    background-color: var(--ltgray);
     justify-content: space-between;
 }
 
@@ -152,7 +170,7 @@ main article {
     width: 100vw;
     height: 15rem;
     position: absolute;
-    background-color: var(--blackish);
+    background-color: var(--ltgray);
 }
 
 /* OUR PAGE: HOME */
@@ -163,7 +181,7 @@ main article {
 
 .site-footer {
     height: 17rem;
-    background-color: var(--blackish);
+    background-color: var(--ltgray);
     text-align: center;
     padding-top: 2rem;
 }
