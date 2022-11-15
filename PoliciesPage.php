@@ -10,6 +10,7 @@ get_header();
     <div>
         <h2>Policies</h2>
         <p>We love all of our clients at Voodoo Hair Studio, and I want to make sure everyone feels at home in our friendly hair salon. That’s why I’ve set a couple basic policies to make sure everyone who walks through our doors has an experience that leaves them wanting to return time and again. Take a quick read. If you have any questions, just get in touch.</p>
+
     </div>
 
     <div>

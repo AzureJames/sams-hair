@@ -8,6 +8,7 @@ get_header();
     <p>Proud to offer many service combinations and options, this is a sample of what is offered in salon. These services and prices are for existing clients. If you're a new guest, definitely check out the New Guest Page for helpful details.</p>
 
 
+
     <h2>Most Popular Services</h2>
     <p>Get a Custom Clipper cut for a quick or short haircut when you need to freshen up, or go for a Signature Scissor cut for long or thick hair, or you're looking for something new. </p>
     <p>Add some colour to your style. I do everything from solid colours to complete total transformations and touchups.</p>

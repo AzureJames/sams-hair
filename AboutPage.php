@@ -13,6 +13,7 @@ get_header();
     <p>Kwetio (Gweh-DEE-oh) is an Iroquois name I've grown up with and have finally embraced.</p>
     <p>I have two young daughters with my husband, and we're currently commuting in from Morinville.</p>
 
+
     <div>
         <h2>My Approach</h2>
         <p>I'm your service provider first, and your buddy second!</p>
