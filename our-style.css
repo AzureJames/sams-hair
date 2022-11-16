@@ -19,11 +19,11 @@ h1 {
     font-size: 42px;
     font-family: 'Amiri', serif;
     font-weight: bold;
-    color: var(--dkgray);
+    color: var(--dkgreen);
 }
 
 .h1-border {
-    background: var(--yellow);
+    background: var(--peach);
     position: relative;
     top: -29px;
     /* width: 100vw; */
@@ -34,14 +34,14 @@ h1 {
 h2 {
     font-size: 36px;
     font-family: 'Amiri', serif;
-    color: var(--dkgray);
+    color: var(--dkgreen);
 }
 
 p,
 main p {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    color: var(--dkgray);
+    color: var(--dkgreen);
 }
 
 h1, h2, p {
@@ -70,6 +70,8 @@ h1, h2, p {
 
 }
 
+
+
 @media screen and (min-width: 768px) {
 
   p, main p {
@@ -80,7 +82,7 @@ h1, h2, p {
 a {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    color: var(--dkgray);
+    color: var(--dkgreen);
 }
 
 .entry-title {
@@ -98,14 +100,19 @@ a {
 }
 
 :root {
-    --whitish: #F9F9F9;
-    --ltgray: #E3E3E3;
-    --dkgray: #2C2B2D;  
-    --blackish: #131313;
+    --tan: #F9F9F9;
+    /* --tan: #E3E3E3;
+    --dkgreen: #2C2B2D;  
+    --armygreen: #131313;
     --redgray: #3C3233;
     --tangray: #D8C8AF;
-    --yellow: #DDC271;
-    --orangish: #97531F; 
+    --peach: #DDC271;
+    --orangish: #97531F;  */
+    --peach: #E7B093;
+    --orange: #b7632b;
+    --tan: #dbbeac;
+    --dkgreen: #505719;
+    --armygreen: #353912; 
 }
 
 .small-img {
@@ -115,7 +122,7 @@ a {
 }
 
 .site-main {
-    background-color: var(--whitish);
+    background-color: var(--tan);
 }
 
 main article {
@@ -126,7 +133,7 @@ main article {
 
 #masthead {
     height: 4rem;
-    background-color: var(--ltgray);
+    background-color: var(--tan);
 }
 
 #masthead > .page-container {
@@ -202,10 +209,12 @@ main article {
     width: 100vw;
     height: 15rem;
     position: absolute;
-    background-color: var(--ltgray);
+    background-color: var(--tan);
 }
 
 /* OUR PAGE: HOME */
+
+
 
 /* OUR PAGE: ABOUT */
 
@@ -220,12 +229,12 @@ main article {
 }
 
 .card-top {
-    background-color: var(--blackish);
+    background-color: var(--armygreen);
     border-radius: 6px 6px 0 0;
 }
 
 .card-top h2 {
-    color: var(--yellow);
+    color: var(--peach);
 }
 
 .card img {
@@ -270,7 +279,7 @@ main article {
     }
 
     .card-top { 
-        background-color: var(--whitish);
+        background-color: var(--tan);
     }
 
     .card > .sml-col {
@@ -287,7 +296,7 @@ main article {
 
     .card-top h2 {
         margin-top: 1.5rem;
-        color: var(--blackish);
+        color: var(--armygreen);
     }
     .card-top .h2one {
         margin-left: 6rem;
@@ -306,7 +315,7 @@ main article {
 
 .site-footer {
     height: 17rem;
-    background-color: var(--ltgray);
+    background-color: var(--tan);
     text-align: center;
     padding-top: 2rem;
 }
