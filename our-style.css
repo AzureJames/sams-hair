@@ -8,6 +8,7 @@
 /* OUR PAGE: SERVICES */
 /* OUR PAGE: CONTACT */
 /* OUR PAGE: FOOTER */
+/* OUR PAGE: 404 */
 
 
 
@@ -326,5 +327,13 @@ main article {
 .page-container {
     max-width: 1200px;
     margin-inline: auto;
+}
+
+
+/* OUR PAGE: 404 */
+
+.error-404 {
+    padding: 15rem 2rem;
+
 }
 
