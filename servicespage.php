@@ -4,7 +4,7 @@
 get_header();
 ?>
 
-<div class="testing">
+<div class="page-container">
 
     <h1>SERVICES</h1>
     <div class="h1-border"></div>
