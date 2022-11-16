@@ -11,10 +11,12 @@ get_header();
     <p class="whaddya">Whaddya Need?</p>
 
     <div class="card">
-        <div class="card-top">
-            <h2>Cutting</h2>
+        <div class="sml-col">
+            <div class="card-top">
+                <h2 class="h2one">Cutting</h2>
+            </div>
+            <img src="http://placekitten.com/150/150" alt="">
         </div>
-        <img src="http://placekitten.com/150/150" alt="">
         <ul>
             <li>
                 <p>Custom Clipper - $<span><?php the_field('custom_clipper'); ?></span> For current clients only, I'll recommend this service if your haircut is quick or short.</p>
@@ -31,10 +33,12 @@ get_header();
 
 
     <div class="card">
-        <div class="card-top">
-            <h2>Coloring</h2>
+        <div class="sml-col">
+            <div class="card-top">
+                <h2 class="h2two">Coloring</h2>
+            </div>
+            <img src="http://placekitten.com/150/150" alt="">
         </div>
-        <img src="http://placekitten.com/150/150" alt="">
         <ul>
             <li>
                 <p>Solid Color - $<span><?php the_field('solid_color'); ?></span>+ Color is applied from root to ends to achieve a glossy, fresh result.</p>
@@ -58,10 +62,12 @@ get_header();
     </div>
 
     <div class="card">
-        <div class="card-top">
-            <h2>Extension</h2>
+        <div class="sml-col">
+            <div class="card-top">
+                <h2 class="h2three">Extension</h2>
+            </div>
+            <img src="http://placekitten.com/150/150" alt="">
         </div>
-        <img src="http://placekitten.com/150/150" alt="">
         <ul>
             <li>
                 <p>A consultation is required to ensure color matching and an appropriate maintenance schedule that will fit your lifestyle. </p>
