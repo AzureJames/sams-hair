@@ -15,10 +15,10 @@
 
 h1 {
     padding-top: 2rem;
-    font-size: 42px;
     font-family: 'Amiri', serif;
     font-weight: bold;
     color: var(--dkgreen);
+    font-size: calc(2.625rem + ((1vw - 3px) * 2));
 }
 
 .h1-border {
@@ -31,58 +31,40 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
     font-family: 'Amiri', serif;
     color: var(--dkgreen);
-    font-weight: 200;
+    font-size: calc(2.25rem + ((1vw - 3px) * 0.75));
 }
 
-p,
-main p {
-    font-size: 16px;
+p, main p, a {
     font-family: 'Poppins', sans-serif;
     color: var(--dkgreen);
+    font-size: calc(1rem + ((1vw - 3px) * 0.4167));
 }
 
 h1, h2, p {
     margin-left: 1rem;
 }
 
+@media (min-width: 1500px) { /*max sz*/
+  p, main p, a {
+    font-size: 21px;
+  }
+  h1 {
+    font-size: 66px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+}
+
+
 @media screen and (min-width: 768px) {
-
-    p, main p, a {
-        font-size: 22px;
-    }    
-
-    h1 {
-        font-size: 66px;
-    }
-
     .h1-border {
         top: -45px;
         height: 1.8rem;
     }
-
-    h2 {
-        font-size: 45px;
-    }
-
-
-}
-
-
-
-@media screen and (min-width: 768px) {
-
-  p, main p {
-    font-size: 22px;
-  }    
-}
-
-a {
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    color: var(--dkgreen);
 }
 
 .entry-title {
