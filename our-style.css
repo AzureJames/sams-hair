@@ -300,6 +300,13 @@ main article {
     }
 }
 
+@media screen and (min-width: 1199px) {
+    .flex-1200 {
+        display: flex;
+        gap: 4rem;
+    }
+}
+
 /* OUR PAGE: CONTACT */
 
 /* OUR PAGE: FOOTER */
