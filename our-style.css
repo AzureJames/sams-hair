@@ -14,6 +14,7 @@
 /* OUR TYPOGRAPHY */
 
 h1 {
+    padding-top: 2rem;
     font-size: 42px;
     font-family: 'Amiri', serif;
     font-weight: bold;
@@ -23,8 +24,8 @@ h1 {
 .h1-border {
     background: var(--peach);
     position: relative;
-    top: -32px;
-    width: 100vw;
+    top: -29px;
+    /* width: 100vw; */
     height: 1.3rem;
     z-index: -1;
 }
@@ -58,7 +59,7 @@ h1, h2, p {
     }
 
     .h1-border {
-        top: -49px;
+        top: -45px;
         height: 1.8rem;
     }
 
@@ -89,6 +90,14 @@ a {
 }
 
 /* OUR GLOBAL */
+
+.site-title, 
+.site-description {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    position: absolute;
+}
 
 :root {
     --white: #F9F9F9;
@@ -124,9 +133,12 @@ main article {
 /* OUR HEADER */
 
 #masthead {
-    display: flex;
     height: 4rem;
     background-color: var(--tan);
+}
+
+#masthead > .page-container {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -164,6 +176,7 @@ main article {
     height: 3.5rem;
     right: 20px;
     width: auto;
+    z-index: 999;
 }
 
 @media screen and (min-width: 600px) {
@@ -188,9 +201,9 @@ main article {
     position: absolute;
     right: 1rem;
     width: 3.5rem;
-    z-index: 3;
+    z-index: 20000;
     height: 3.5rem;
-    background: url("https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger-1.png");
+    /* background: url("https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger-1.png"); */
 }
 
 .toggled {
@@ -340,7 +353,7 @@ padding: 1.5rem;
     margin-inline: .5rem;
     margin-bottom: 2.5rem;
     border-radius: 6px;
-    box-shadow: 0px 0px 7px 4px rgba(43, 43, 43, 0.44);
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
 
 .card-top {
@@ -424,6 +437,13 @@ padding: 1.5rem;
     }
 }
 
+@media screen and (min-width: 1199px) {
+    .flex-1200 {
+        display: flex;
+        gap: 4rem;
+    }
+}
+
 /* OUR PAGE: CONTACT */
 
 /* OUR PAGE: FOOTER */
@@ -448,8 +468,8 @@ padding: 1.5rem;
 }
 
 
-/* .testing {
-    color: pink;
-    background-color: grey;
-} */
+.page-container {
+    max-width: 1200px;
+    margin-inline: auto;
+}
 
