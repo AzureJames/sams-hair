@@ -225,7 +225,7 @@ main article {
     background-repeat: no-repeat;
     background-size: 54rem;
     background-position-x:38% ;
-    background-position-y: 50%;
+    background-position-y: 84%;
 }
 
 
@@ -274,7 +274,7 @@ padding: 1.5rem;
 
     .banner-h1-bg {
         width: 40rem;
-        height: 24rem;
+        
     }
 }
 
@@ -299,14 +299,13 @@ padding: 1.5rem;
 @media screen and (min-width: 1287px) {
 
     .home-banner {
-        height: auto;
-
+        background-size: 58rem;
     }
-
     .banner-h1-bg {
-        height: 31rem;
-        
+        width: 58rem;
+        padding-bottom: 3rem;
     }
+   
 
     .home-head {
         margin: 2rem auto;
@@ -315,9 +314,7 @@ padding: 1.5rem;
 }
 
 @media screen and (min-width: 1500px) {
-    .banner-h1-bg {
-        height: 37rem;
-    }
+   
 
     .home-page {
         max-width: 81rem;
