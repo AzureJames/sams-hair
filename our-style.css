@@ -8,7 +8,6 @@
 /* OUR PAGE: SERVICES */
 /* OUR PAGE: CONTACT */
 /* OUR PAGE: FOOTER */
-/* OUR PAGE: 404 */
 
 
 
@@ -18,11 +17,11 @@ h1 {
     font-size: 42px;
     font-family: 'Amiri', serif;
     font-weight: bold;
-    color: var(--dkgray);
+    color: var(--dkgreen);
 }
 
 .h1-border {
-    background: var(--yellow);
+    background: var(--peach);
     position: relative;
     top: -32px;
     width: 100vw;
@@ -33,14 +32,15 @@ h1 {
 h2 {
     font-size: 36px;
     font-family: 'Amiri', serif;
-    color: var(--dkgray);
+    color: var(--dkgreen);
+    font-weight: 200;
 }
 
 p,
 main p {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    color: var(--dkgray);
+    color: var(--dkgreen);
 }
 
 h1, h2, p {
@@ -69,6 +69,8 @@ h1, h2, p {
 
 }
 
+
+
 @media screen and (min-width: 768px) {
 
   p, main p {
@@ -79,7 +81,7 @@ h1, h2, p {
 a {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    color: var(--dkgray);
+    color: var(--dkgreen);
 }
 
 .entry-title {
@@ -89,14 +91,20 @@ a {
 /* OUR GLOBAL */
 
 :root {
-    --whitish: #F9F9F9;
-    --ltgray: #E3E3E3;
-    --dkgray: #2C2B2D;  
-    --blackish: #131313;
+    --white: #F9F9F9;
+    --black: #2C2B2D;  
+    /* --tan: #E3E3E3;
+   
+    --armygreen: #131313;
     --redgray: #3C3233;
     --tangray: #D8C8AF;
-    --yellow: #DDC271;
-    --orangish: #97531F; 
+    --peach: #DDC271;
+    --orangish: #97531F;  */
+    --peach: #E7B093;
+    --orange: #b7632b;
+    --tan: #dbbeac;
+    --dkgreen: #505719;
+    --armygreen: #353912; 
 }
 
 .small-img {
@@ -106,7 +114,7 @@ a {
 }
 
 .site-main {
-    background-color: var(--whitish);
+    background-color: var(--tan);
 }
 
 main article {
@@ -118,7 +126,7 @@ main article {
 #masthead {
     display: flex;
     height: 4rem;
-    background-color: var(--ltgray);
+    background-color: var(--tan);
     justify-content: space-between;
 }
 
@@ -158,7 +166,7 @@ main article {
     width: auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     .hamburger-icon {
         display: none;
         height: 0;
@@ -189,10 +197,81 @@ main article {
     width: 100vw;
     height: 15rem;
     position: absolute;
-    background-color: var(--ltgray);
+    background-color: var(--tan);
 }
 
 /* OUR PAGE: HOME */
+.home-head {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.banner-h1-bg {
+    background-color: var(--tan);
+    width: 14rem;
+    padding: 1rem;
+}
+
+.banner-h1-bg h1  {
+    color: var(--dkgreen);
+}
+.banner-h1-bg p {
+    color: var(--black);
+}
+
+.home-banner{
+    background-image: url('http://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/home-banner-mobile.jpg');
+    height: 20rem;
+    width: 100%;
+    margin-top: 2rem;
+    background-repeat: no-repeat;
+    background-size: 54rem;
+    background-position-x:38% ;
+    background-position-y: 50%;
+}
+
+
+.most-pop {
+    background-color: var(--armygreen);
+    padding-bottom: 3rem;
+}
+
+.most-pop h2 {
+    color: var(--peach);
+    padding: 2rem 0;
+    margin: 1rem auto;
+    width: fit-content;
+}
+.pop-card p {
+color: var(--white);
+padding: 1.5rem;
+}
+
+.pop-card img {
+    border-radius: 100px;
+    width: 10rem;
+    margin: 1rem auto;
+}
+
+.contact-btn {
+    margin: 2rem auto;
+    width: fit-content;
+}
+
+.contact-btn a {
+    width: 20rem;
+}
+
+.contact-me-btn {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: var(--peach);
+    padding: 1rem 7rem;
+    color: black;
+}
+
 
 /* OUR PAGE: ABOUT */
 
@@ -207,12 +286,12 @@ main article {
 }
 
 .card-top {
-    background-color: var(--blackish);
+    background-color: var(--armygreen);
     border-radius: 6px 6px 0 0;
 }
 
 .card-top h2 {
-    color: var(--yellow);
+    color: var(--peach);
 }
 
 .card img {
@@ -257,7 +336,7 @@ main article {
     }
 
     .card-top { 
-        background-color: var(--whitish);
+        background-color: var(--tan);
     }
 
     .card > .sml-col {
@@ -274,7 +353,7 @@ main article {
 
     .card-top h2 {
         margin-top: 1.5rem;
-        color: var(--blackish);
+        color: var(--armygreen);
     }
     .card-top .h2one {
         margin-left: 6rem;
@@ -293,7 +372,7 @@ main article {
 
 .site-footer {
     height: 17rem;
-    background-color: var(--ltgray);
+    background-color: var(--tan);
     text-align: center;
     padding-top: 2rem;
 }
@@ -315,12 +394,4 @@ main article {
     color: pink;
     background-color: grey;
 } */
-
-
-/* OUR PAGE: 404 */
-
-.error-404 {
-    padding: 15rem 2rem;
-
-}
 
