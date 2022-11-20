@@ -10,7 +10,7 @@ get_header();
 
     <div class="flex-1200">
         <div class="card">
-            <div class="card-top">
+            <div class="card-top"> 
                 <h2>Policies</h2>
             </div>
             <div class="card-body">
