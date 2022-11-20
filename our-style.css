@@ -336,19 +336,18 @@ main article {
 
 
 .most-pop {
-    background-color: var(--armygreen);
     padding-bottom: 3rem;
     margin-bottom: 3rem;
 }
 
 .most-pop h2 {
-    color: var(--peach);
+    color: var(--dkgreen);
     padding: 2rem 0;
     margin: 1rem auto;
     width: fit-content;
 }
 .pop-card p {
-color: var(--white);
+color: var(--black);
 padding: 1.5rem;
 }
 
@@ -376,13 +375,17 @@ padding: 1.5rem;
     color: black;
 }
 
+.contact-me-btn:hover {
+    background-color: var(--armygreen);
+    color: var(--orange);
+}
+
 
 @media screen and (min-width: 550px) {
     .approach{
         margin-top: -3rem;
     }
 }
-
 
 @media screen and (min-width: 600px) {
 
