@@ -42,8 +42,8 @@
 				?>
 			</p>
 			<ul class="footer-social">
-				<li><a href="#"><img src="https://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/insta.png" alt="instagram logo"></a></li>
-				<li><a href="#"><img src="https://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/fb.png" alt="fb logo"></a></li>
+				<li><a href="#"><img src="http://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/insta.png" alt="instagram logo"></a></li>
+				<li><a href="#"><img src="http://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/fb.png" alt="fb logo"></a></li>
 			</ul>
 			<p>
 				<?php
