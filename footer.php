@@ -18,9 +18,17 @@
 			<p>
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__("Unit 140 16 Renault Cres. St Albert"));
+				printf( esc_html__("Unit 140 "));
 				?>
 			</p>
+
+			<p>
+				<?php
+				/* translators: %s: CMS name, i.e. WordPress. */
+				printf( esc_html__("16 Renault Cres. St Albert"));
+				?>
+			</p>
+
 			<p>
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
