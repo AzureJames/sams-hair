@@ -13,6 +13,10 @@
 
 /* OUR TYPOGRAPHY */
 
+
+
+
+
 h1, h2, h3 {
     font-family: 'Amiri', serif;
     color: var(--dkgreen);
@@ -78,6 +82,9 @@ h1, h2, p {
 .entry-title {
     margin-top: 0;
 }
+
+
+
 
 /* OUR GLOBAL */
 
@@ -167,6 +174,97 @@ main article {
     right: 20px;
     width: auto;
     z-index: 999;
+}
+
+/* OUR PAGE: ABOUT */
+.about-page{
+    margin: 0 auto;
+    width: 100%;
+}
+.about-img-txt{
+    padding: 1rem 2rem 1rem 1.5rem;
+}
+.about-content{
+    text-align: justify;
+    height: 417px;
+}
+.about-content p,
+.approach-content p {
+ padding-top: 0.5rem;
+ padding-bottom: 0.5rem;
+}
+.approach-content{
+    height: 368px;
+}
+
+.approach{
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+
+.approach-heading{
+    padding-bottom: 2.5rem;
+}
+
+.about-img img{
+    border-radius: 100px;
+    width: 10rem;
+    margin: 1rem auto;
+
+}
+.about-img.first-img {
+    display: none;
+}
+
+
+/* OUR PAGE: CONTACT */
+
+.contact-me{
+    margin: 0 auto;
+    width: 100%;
+   
+}
+.contact-me input{
+    width: 100%;
+}
+.contact-message textarea{
+    width: 100%;
+    height: 14.4rem;
+}
+.wpcf7{
+    padding: 1rem;
+}
+.box-check input{
+    height: 2rem;
+}
+.contact-me h1{
+    text-align: center;
+}
+.wpcf7-list-item>label{
+    display: flex;
+}
+.contact-form{
+   padding: 1.5rem;
+}
+.name,
+.email,
+.contact-message{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--armygreen);
+    font-size: 1.6rem;
+}
+.contact-form input,
+.contact-form textarea{
+    border-radius: 8px;
+    background-color: var(--peach);
+}
+.submit input{
+    background-color: var(--armygreen) ;
+    color: var(--tan);
+}
+.submit{
+    margin-top: 2rem;
 }
 
 @media screen and (min-width: 600px) {
@@ -278,11 +376,76 @@ padding: 1.5rem;
     color: black;
 }
 
+
+@media screen and (min-width: 550px) {
+    .approach{
+        margin-top: -3rem;
+    }
+}
+
+
 @media screen and (min-width: 600px) {
 
     .banner-h1-bg {
         width: 40rem;
         
+    }
+
+}
+
+
+@media screen and (min-width: 820px) {
+    /* OUR PAGE: ABOUT */
+    .about-img-txt{
+        display: flex;
+        
+    }
+    .about-img{
+        width: 30%;
+        padding-top: 35rem;
+        margin: 2rem;
+    }
+    .about-txt{
+        width: 70%;
+        padding: 2rem;
+    }
+    .about-img img{
+        border-radius: 180px;
+        width: 60rem;
+    }
+    .about-img.first-img{
+        display: block;
+    }
+    .about-img.second-img{
+        display: none;
+    }
+    .approach{
+        margin-top: 1.5rem;
+        margin-bottom: 7rem;
+    }
+    .approach-content{
+        margin-top: -1rem;
+    }
+      /* OUR PAGE: Contact-me */
+    .contact-me input{
+        width: 80%;
+    }
+    .contact-message textarea{
+        width: 80%;
+    }
+    .name,
+    .email,
+    .contact-message{
+        margin-left: 10rem;
+    }
+    .wpcf7-list-item-label{
+        margin-left: -6rem;
+    }
+    .box-check{
+        margin-left: -30rem;
+    }
+    .wpcf7-list-item>label{
+        margin-left: -12rem;
     }
 }
 
@@ -302,6 +465,14 @@ padding: 1.5rem;
     .home-banner {
         background-position-x: 13%;
     }
+
+    .wpcf7-list-item-label{
+        margin-left: -7rem;
+    }
+
+    .wpcf7-list-item>label{
+        margin-left: -10rem;
+    }
 }
 
 @media screen and (min-width: 1287px) {
@@ -319,6 +490,33 @@ padding: 1.5rem;
         margin: 2rem auto;
         
     }
+
+    /* OUR PAGE: ABOUT */
+    .approach{
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-img{
+        padding-top: 22rem;
+    }
+
+    .about-img img{
+        border-radius: 180px;
+        width: 17rem;
+    }
+    /* OUR PAGE: Contact-me */
+    .contact-me input{
+        width: 60%;
+    }
+    .contact-message textarea{
+         width: 60%;
+    }
+    .name,
+    .email,
+    .contact-message{
+        margin-left: 25rem;
+    }
 }
 
 @media screen and (min-width: 1500px) {
@@ -327,6 +525,12 @@ padding: 1.5rem;
     .home-page {
         max-width: 81rem;
         margin: 0 auto;
+    }
+
+    /* OUR PAGE: ABOUT */
+    .approach{
+        margin-top: -5rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -423,6 +627,7 @@ padding: 1.5rem;
         display: inline-block;
     }
 }
+
 
 
 
