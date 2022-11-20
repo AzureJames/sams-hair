@@ -256,7 +256,7 @@ main article {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 899px) {
     .card {
         display: flex;
     }
@@ -292,12 +292,21 @@ main article {
     }
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 899px) {
     .flex-1200 {
         display: flex;
         gap: 4rem;
     }
+    .flex-1200 > .card{
+        flex: 1 1 50%;
+        width: 50%;
+    }
+    .flex-1200 > .card{
+        display: inline-block;
+    }
 }
+
+
 
 /* OUR PAGE: CONTACT */
 

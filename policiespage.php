@@ -20,11 +20,13 @@ get_header();
             <div class="card-top">
                 <h2>Cancellations & Rescheduling</h2>
             </div>
-            <p>Just Let Me Know</p>
-            <p>I know life happens and sometimes things come up, but here are some things to keep in mind when changing your appointments:</p>
-            <p>- Cancellations/Rescheduling with at least 48 hours notice will be moved without issue</p>
-            <p>- Cancellations/Rescheduling within the 48 hour window will require a $50 deposit to book a new appointment.</p>
-            <p>- If you don't show up for your appointment and don't call/email/text at all, the full amount of the missed appointment will be required to book again. A deposit may be required to book future appointments.</p>
+            <div class="card-body">
+                <p>Just Let Me Know</p>
+                <p>I know life happens and sometimes things come up, but here are some things to keep in mind when changing your appointments:</p>
+                <p>- Cancellations/Rescheduling with at least 48 hours notice will be moved without issue</p>
+                <p>- Cancellations/Rescheduling within the 48 hour window will require a $50 deposit to book a new appointment.</p>
+                <p>- If you don't show up for your appointment and don't call/email/text at all, the full amount of the missed appointment will be required to book again. A deposit may be required to book future appointments.</p>
+            </div>
         </div>
     </div>
 </div>
