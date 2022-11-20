@@ -61,7 +61,7 @@
 						)
 					);
 					?>
-					<img src="https://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/hamburger.png" alt="top menu" class="hamburger-icon">
+					<img src="http://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/hamburger.png" alt="top menu" class="hamburger-icon">
 				</nav><!-- #site-navigation -->
 			</div>
 		</header><!-- #masthead -->
