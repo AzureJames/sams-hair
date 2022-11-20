@@ -1,4 +1,4 @@
-<?php /*Template Name: ContactFromPage */
+<?php /*Template Name: ContactPage */
 
 
 get_header();
