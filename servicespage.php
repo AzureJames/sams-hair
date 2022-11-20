@@ -33,9 +33,12 @@ get_header();
 
 
     <div class="card">
-        <div class="sml-col">
-            <div class="card-top">
-                <h2 class="h2two">Coloring</h2>
+        <div class="card-top">
+            <h2 class="h2two">Coloring</h2>
+        </div> 
+        <div class="inner-card">
+            <div class="sml-col">
+                <img src="http://placekitten.com/150/150" alt="">
             </div>
             <img src="http://placekitten.com/150/150" alt="">
         </div>
