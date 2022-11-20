@@ -13,7 +13,9 @@ get_header();
             <div class="card-top">
                 <h2>Policies</h2>
             </div>
-            <p>We love all of our clients at Voodoo Hair Studio, and I want to make sure everyone feels at home in our friendly hair salon. That’s why I’ve set a couple basic policies to make sure everyone who walks through our doors has an experience that leaves them wanting to return time and again. Take a quick read. If you have any questions, just get in touch.</p>
+            <div class="card-body">
+                <p>We love all of our clients at Voodoo Hair Studio, and I want to make sure everyone feels at home in our friendly hair salon. That’s why I’ve set a couple basic policies to make sure everyone who walks through our doors has an experience that leaves them wanting to return time and again. Take a quick read. If you have any questions, just get in touch.</p>
+            </div>
         </div>
 
         <div class="card">
