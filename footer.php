@@ -49,7 +49,6 @@
 				</div>
 			</div>
 
-			<!-- Â-->
 			<div class="copyright">
 				<p>
 					<?php
