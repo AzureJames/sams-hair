@@ -684,6 +684,9 @@ padding: 1.5rem;
     .flex-1200 > .card{
         display: inline-block;
     }
+    .flex-1200 p {
+        padding-bottom: .5rem;
+    }
 }
 
 

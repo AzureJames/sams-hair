@@ -23,7 +23,7 @@ get_header();
                 <h2>Cancellations & Rescheduling</h2>
             </div>
             <div class="card-body">
-                <p>Just Let Me Know</p>
+                <h3>Just Let Me Know</h3>
                 <p>I know life happens and sometimes things come up, but here are some things to keep in mind when changing your appointments:</p>
                 <p>- Cancellations/Rescheduling with at least 48 hours notice will be moved without issue</p>
                 <p>- Cancellations/Rescheduling within the 48 hour window will require a $50 deposit to book a new appointment.</p>
