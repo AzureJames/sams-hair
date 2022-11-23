@@ -267,16 +267,13 @@ main article {
     margin-top: 2rem;
 }
 
-@media screen and (min-width: 600px) {
-    .hamburger-icon {
-        display: none;
-        height: 0;
-    }
 
-    .menu-primary-nav-container {
-        padding-top: 1rem;
-    }
     
+
+
+.site-branding {
+    position: relative;
+    z-index: 4;
 }
 
 .custom-logo {
@@ -286,16 +283,26 @@ main article {
 }
 
 .menu-toggle img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
     width: 3.5rem;
     height: 3.5rem;
+    margin-top: .75rem;
+    margin-right: 1rem;
 }
 
 .toggled {
     width: 100vw;
-    height: 15rem;
+    height: 26rem;
     position: absolute;
     background-color: var(--tan);
+    z-index: 3;
 }
+
+
+
 
 .main-navigation button {
     background-color: transparent;
@@ -305,9 +312,44 @@ main article {
     margin-top: .75rem;
 }
 
+
+
 .menu-menu-1-container {
     margin-top: .75rem;
     margin-right: 1rem;
+}
+
+.menu-menu-1-container ul {
+    margin-top: 5rem;
+}
+
+.menu li {
+    text-align: center;
+    margin: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    .hamburger-icon {
+        display: none;
+        height: 0;
+    }
+
+    .menu-primary-nav-container {
+        padding-top: 1rem;
+    }
+
+    .menu-menu-1-container ul {
+        margin-top: 0;
+    }
+
+    .menu-menu-1-container{
+        margin-top: .75rem;
+    }
+
+    .menu li {
+        text-align: left;
+        margin: 0;
+    }
 }
 
 /* OUR PAGE: HOME */
