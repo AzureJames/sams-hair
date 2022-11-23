@@ -17,17 +17,11 @@
 		<div class="site-info">
 			<div class="upper-footer">
 				<div class="left-side">
+				
 					<p>
 						<?php
 						/* translators: %s: CMS name, i.e. WordPress. */
-						printf( esc_html__("Unit 140 "));
-						?>
-					</p>
-
-					<p>
-						<?php
-						/* translators: %s: CMS name, i.e. WordPress. */
-						printf( esc_html__("16 Renault Cres. St Albert"));
+						printf( esc_html__("Unit 140 16 Renault Cres. St Albert"));
 						?>
 					</p>
 
@@ -46,17 +40,21 @@
 				</div>
 				<div class="right-side">
 					<ul class="footer-social">
-						<li><a href="#"><img src="http://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/insta.png" alt="instagram logo"></a></li>
-						<li><a href="#"><img src="http://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/fb.png" alt="fb logo"></a></li>
+						
+					
+						 <li class="instagram"><a href="#"><img src="http://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/insta.png" alt="instagram logo"></a></li>
+
+						<li class="facebook"><a href="#"><img src="http://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/fb.png" alt="fb logo"></a></li> 
 					</ul>
 				</div>
 			</div>
 
+			<!-- Â-->
 			<div class="copyright">
 				<p>
 					<?php
 					/* translators: %s: CMS name, i.e. WordPress. */
-					printf( esc_html__("Â© Sam Kwetio Hairstyles"));
+					printf( esc_html__("© Sam Kwetio Hairstyles"));
 					?>
 				</p>
 			</div>

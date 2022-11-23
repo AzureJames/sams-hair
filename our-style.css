@@ -130,7 +130,7 @@ main article {
 /* OUR HEADER */
 
 #masthead {
-    height: 5rem;
+    height: 4rem;
     background-color: var(--tan);
 }
 
@@ -221,8 +221,10 @@ main article {
 
 .contact-me{
     margin: 0 auto;
-    width: 100%;
-   
+    max-width: 100%;
+}
+.contact-form{
+    padding: 0 1.5rem;
 }
 .contact-me input{
     width: 100%;
@@ -231,9 +233,7 @@ main article {
     width: 100%;
     height: 14.4rem;
 }
-.wpcf7{
-    padding: 1rem;
-}
+
 .box-check input{
     height: 2rem;
 }
@@ -243,9 +243,7 @@ main article {
 .wpcf7-list-item>label{
     display: flex;
 }
-.contact-form{
-   padding: 1.5rem;
-}
+
 .name,
 .email,
 .contact-message{
@@ -268,66 +266,17 @@ main article {
 }
 
 
-    
-
-
-.site-branding {
-    position: relative;
-    z-index: 4;
+  .check-box input{
+    margin-right: 0.5rem;
+    width: 5rem;
+  }
+  .check-box .wpcf7-list-item{
+    margin: 0;
+  }
+  
+  input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+  color: black;
 }
-
-.custom-logo {
-    height: 4rem;
-    width: auto;
-    margin: .5rem;
-}
-
-.menu-toggle img {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 3;
-    width: 3.5rem;
-    height: 3.5rem;
-    margin-top: .75rem;
-    margin-right: 1rem;
-}
-
-.toggled {
-    width: 100vw;
-    height: 26rem;
-    position: absolute;
-    background-color: var(--tan);
-    z-index: 3;
-}
-
-
-
-
-.main-navigation button {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    margin-right: 1rem;
-    margin-top: .75rem;
-}
-
-
-
-.menu-menu-1-container {
-    margin-top: .75rem;
-    margin-right: 1rem;
-}
-
-.menu-menu-1-container ul {
-    margin-top: 5rem;
-}
-
-.menu li {
-    text-align: center;
-    margin: 1rem;
-}
-
 @media screen and (min-width: 600px) {
     .hamburger-icon {
         display: none;
@@ -337,19 +286,29 @@ main article {
     .menu-primary-nav-container {
         padding-top: 1rem;
     }
+    
+}
 
-    .menu-menu-1-container ul {
-        margin-top: 0;
-    }
+.custom-logo {
+    height: 4rem;
+    width: auto;
+}
 
-    .menu-menu-1-container{
-        margin-top: .75rem;
-    }
+.menu-toggle {
+    border: none;
+    position: absolute;
+    right: 1rem;
+    width: 3.5rem;
+    z-index: 20000;
+    height: 3.5rem;
+    /* background: url("https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger-1.png"); */
+}
 
-    .menu li {
-        text-align: left;
-        margin: 0;
-    }
+.toggled {
+    width: 100vw;
+    height: 15rem;
+    position: absolute;
+    background-color: var(--tan);
 }
 
 /* OUR PAGE: HOME */
@@ -408,6 +367,7 @@ padding: 1.5rem;
     margin: 1rem auto;
 }
 
+  /* OUR PAGE: Contact-me */
 .contact-btn {
     margin: 2rem auto;
     width: fit-content;
@@ -429,6 +389,21 @@ padding: 1.5rem;
 .contact-me-btn:hover {
     background-color: var(--armygreen);
     color: var(--orange);
+}
+  /* OUR PAGE: Footer */
+.left-side p{
+    margin: 0.5rem 0;
+    padding: 0.2rem 0;
+}
+.right-side{
+    margin: 1rem 0;
+  
+}
+.footer-social{
+    display: flex;
+}
+.right-side svg{
+    fill: var(--armygreen);
 }
 
 
@@ -481,26 +456,34 @@ padding: 1.5rem;
         margin-top: -1rem;
     }
       /* OUR PAGE: Contact-me */
-    .contact-me input{
-        width: 80%;
-    }
-    .contact-message textarea{
-        width: 80%;
-    }
-    .name,
-    .email,
-    .contact-message{
-        margin-left: 10rem;
-    }
-    .wpcf7-list-item-label{
-        margin-left: -6rem;
-    }
-    .box-check{
-        margin-left: -30rem;
-    }
-    .wpcf7-list-item>label{
-        margin-left: -12rem;
-    }
+    .contact-form{
+        width: 30rem;
+        padding: 0;
+        margin: 0 auto;
+      }
+  
+
+/* OUR PAGE: FOOTER */
+    .upper-footer{
+        display: flex;
+        justify-content: space-between;
+        gap: 6.5rem;
+        justify-content: center;
+        padding-bottom: 1rem;
+        margin-top: 2rem;
+   }
+   .right-side{
+       align-self: center;
+   }
+   .left-side p{
+    padding: 0 0;
+}
+
+.right-side ul{
+    gap: 2rem;
+}
+
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -520,13 +503,6 @@ padding: 1.5rem;
         background-position-x: 13%;
     }
 
-    .wpcf7-list-item-label{
-        margin-left: -7rem;
-    }
-
-    .wpcf7-list-item>label{
-        margin-left: -10rem;
-    }
 }
 
 @media screen and (min-width: 1287px) {
@@ -559,18 +535,10 @@ padding: 1.5rem;
         border-radius: 180px;
         width: 17rem;
     }
-    /* OUR PAGE: Contact-me */
-    .contact-me input{
-        width: 60%;
-    }
-    .contact-message textarea{
-         width: 60%;
-    }
-    .name,
-    .email,
-    .contact-message{
-        margin-left: 25rem;
-    }
+    /* OUR PAGE: Footer*/
+.upper-footer{
+    gap: 15rem;
+}
 }
 
 @media screen and (min-width: 1500px) {
@@ -731,21 +699,6 @@ padding: 1.5rem;
 
 
 
-@media screen and (min-width: 820px) {
 
-    .upper-footer{
-         display: flex;
-         justify-content: center;
-        padding: 0.5rem;
-    }
-
-    .left-side p{
-        padding: .2rem 0;
-    }
-    .right-side{
-        align-self: center;
-    }
-
-}
 
 
