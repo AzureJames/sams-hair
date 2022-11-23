@@ -391,21 +391,6 @@ padding: 1.5rem;
     background-color: var(--armygreen);
     color: var(--orange);
 }
-  /* OUR PAGE: Footer */
-.left-side p{
-    margin: 0.5rem 0;
-    padding: 0.2rem 0;
-}
-.right-side{
-    margin: 1rem 0;
-  
-}
-.footer-social{
-    display: flex;
-}
-.right-side svg{
-    fill: var(--armygreen);
-}
 
   /* OUR PAGE: Footer */
 .left-side p{
@@ -716,7 +701,13 @@ padding: 1.5rem;
 
 
 
+@media screen and (min-width: 820px) {
 
+    .upper-footer{
+         display: flex;
+         justify-content: center;
+        padding: 0.5rem;
+    }
 
     .left-side p{
         padding: .2rem 0;
