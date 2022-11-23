@@ -13,11 +13,18 @@
 
 /* OUR TYPOGRAPHY */
 
+
+
+
+
+h1, h2, h3 {
+    font-family: 'Amiri', serif;
+    color: var(--dkgreen);
+}
+
 h1 {
     padding-top: 2rem;
-    font-family: 'Amiri', serif;
     font-weight: bold;
-    color: var(--dkgreen);
     font-size: calc(2.625rem + ((1vw - 3px) * 2));
 }
 
@@ -25,15 +32,16 @@ h1 {
     background: var(--peach);
     position: relative;
     top: -29px;
-    /* width: 100vw; */
     height: 1.3rem;
     z-index: -1;
 }
 
 h2 {
-    font-family: 'Amiri', serif;
-    color: var(--dkgreen);
     font-size: calc(2.25rem + ((1vw - 3px) * 0.75));
+}
+
+h3 {
+    font-size: 22px;
 }
 
 p, main p, a {
@@ -57,6 +65,10 @@ h1, h2, p {
   h2 {
     font-size: 45px;
   }
+
+  h3 {
+    font-size: 25px;
+  }
 }
 
 
@@ -70,6 +82,9 @@ h1, h2, p {
 .entry-title {
     margin-top: 0;
 }
+
+
+
 
 /* OUR GLOBAL */
 
@@ -331,19 +346,18 @@ main article {
 
 
 .most-pop {
-    background-color: var(--armygreen);
     padding-bottom: 3rem;
     margin-bottom: 3rem;
 }
 
 .most-pop h2 {
-    color: var(--peach);
+    color: var(--dkgreen);
     padding: 2rem 0;
     margin: 1rem auto;
     width: fit-content;
 }
 .pop-card p {
-color: var(--white);
+color: var(--black);
 padding: 1.5rem;
 }
 
@@ -372,12 +386,12 @@ padding: 1.5rem;
     color: black;
 }
 
-<<<<<<< Updated upstream
-=======
+
 .contact-me-btn:hover {
     background-color: var(--armygreen);
     color: var(--orange);
 }
+
   /* OUR PAGE: Footer */
 .left-side p{
     margin: 0.5rem 0;
@@ -394,14 +408,13 @@ padding: 1.5rem;
     fill: var(--armygreen);
 }
 
->>>>>>> Stashed changes
+
 
 @media screen and (min-width: 550px) {
     .approach{
         margin-top: -3rem;
     }
 }
-
 
 @media screen and (min-width: 600px) {
 
@@ -504,7 +517,7 @@ padding: 1.5rem;
         width: 58rem;
         padding-bottom: 3rem;
     }
-   
+    
 
     .home-head {
         margin: 2rem auto;
@@ -549,6 +562,13 @@ padding: 1.5rem;
 
 /* OUR PAGE: ABOUT */
 
+
+@media screen and (min-width: 1500px) {
+    .about-page {
+        max-width: 100rem;
+        margin: 0 auto;
+    }
+}
 /* OUR PAGE: SERVICES */
 
 .card {
@@ -568,10 +588,14 @@ padding: 1.5rem;
     color: var(--peach);
 }
 
+
+
 .card img {
-    border-radius: 100%;
     display: block;
-    margin: 1rem auto;
+    border-radius: 100%;
+    width: 11rem;
+    height: 11rem;
+    margin: 2rem auto;
 }
 
 .card ul {
@@ -597,55 +621,54 @@ padding: 1.5rem;
     margin-left: 0;
 }
 
+.card-body {
+    padding: 1rem;
+}
+
 .whaddya {
     font-family: 'Amiri', serif;
     font-size: 28px;
     margin-bottom: 3rem;
+    font-weight: bold;
 }
 
 
-@media screen and (min-width: 768px) {
-    .card {
+@media screen and (min-width: 899px) {
+
+    .whaddya {
+        font-size: 38px;
+    }
+    .service-card {
         display: flex;
+        justify-content: space-around;
+        padding: 2rem;
     }
 
-    .card-top { 
-        background-color: var(--tan);
-    }
-
-    .card > .sml-col {
-        flex-basis: 30%;
-    }
-
-    .card:nth-of-type(3) {
-        flex-direction: row-reverse;
+    .service-card ul {
+        width: 37rem;
     }
 
     .card img {
-        border-radius: 31%;
+        margin: auto;
     }
 
-    .card-top h2 {
-        margin-top: 1.5rem;
-        color: var(--armygreen);
+    .reverse {
+        flex-direction: row-reverse;
     }
-    .card-top .h2one {
-        margin-left: 6rem;
-    }
-    .card-top .h2two {
-        margin-left: 1.2rem;
-    }
-    .card-top .h2three {
-        margin-left: 4.9rem;
-    }
-}
 
-@media screen and (min-width: 1199px) {
     .flex-1200 {
         display: flex;
-        gap: 4rem;
+        gap: 3%;
+    }
+    .flex-1200 > .card{
+        flex: 1 1 50%;
+        width: 50%;
+    }
+    .flex-1200 > .card{
+        display: inline-block;
     }
 }
+
 
 /* OUR PAGE: CONTACT */
 
@@ -676,12 +699,25 @@ padding: 1.5rem;
     margin-inline: auto;
 }
 
-<<<<<<< Updated upstream
-=======
 
 
 
+@media screen and (min-width: 820px) {
+
+    .upper-footer{
+         display: flex;
+         justify-content: center;
+        padding: 0.5rem;
+    }
+
+    .left-side p{
+        padding: .2rem 0;
+    }
+    .right-side{
+        align-self: center;
+    }
+
+}
 
 
 
->>>>>>> Stashed changes
