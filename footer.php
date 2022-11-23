@@ -16,6 +16,7 @@
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 
+
 			<p>
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
@@ -53,6 +54,7 @@
 				?>
 			</p>
 
+
 						?>
 					</p>
 
@@ -81,9 +83,6 @@
 					</ul>
 				</div>
 			</div>
-
-
-			
 
 			<div class="copyright">
 				<p>
