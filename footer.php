@@ -83,7 +83,7 @@
 			</div>
 
 
-			<!-- Â-->
+			
 
 			<div class="copyright">
 				<p>
