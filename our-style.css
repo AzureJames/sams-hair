@@ -130,7 +130,7 @@ main article {
 /* OUR HEADER */
 
 #masthead {
-    height: 4rem;
+    height: 5rem;
     background-color: var(--tan);
 }
 
@@ -282,16 +282,12 @@ main article {
 .custom-logo {
     height: 4rem;
     width: auto;
+    margin: .5rem;
 }
 
-.menu-toggle {
-    border: none;
-    position: absolute;
-    right: 1rem;
+.menu-toggle img {
     width: 3.5rem;
-    z-index: 20000;
     height: 3.5rem;
-    /* background: url("https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger-1.png"); */
 }
 
 .toggled {
@@ -299,6 +295,19 @@ main article {
     height: 15rem;
     position: absolute;
     background-color: var(--tan);
+}
+
+.main-navigation button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-right: 1rem;
+    margin-top: .75rem;
+}
+
+.menu-menu-1-container {
+    margin-top: .75rem;
+    margin-right: 1rem;
 }
 
 /* OUR PAGE: HOME */
@@ -675,5 +684,18 @@ padding: 1.5rem;
 .page-container {
     max-width: 1200px;
     margin-inline: auto;
+}
+
+.upper-footer{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.left-side p{
+    padding: .2rem 0;
+}
+.right-side{
+    align-self: center;
 }
 

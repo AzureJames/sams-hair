@@ -52,7 +52,7 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e('', 'sams-hair'); ?></button>
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><img src="http://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/hamburger.png" alt="Hamburger Menu Button"></button>
 					<?php
 					wp_nav_menu(
 						array(
@@ -61,7 +61,7 @@
 						)
 					);
 					?>
-					<img src="https://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/hamburger.png" alt="top menu" class="hamburger-icon">
+
 				</nav><!-- #site-navigation -->
 			</div>
 		</header><!-- #masthead -->
