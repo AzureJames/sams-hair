@@ -130,7 +130,7 @@ main article {
 /* OUR HEADER */
 
 #masthead {
-    height: 4rem;
+    height: 5rem;
     background-color: var(--tan);
 }
 
@@ -140,8 +140,10 @@ main article {
 }
 
 #primary-menu {
-    gap: 2rem;
+    gap: 3rem;
+    margin-top: 5rem;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .menu-primary-nav-container {
@@ -175,6 +177,60 @@ main article {
     width: auto;
     z-index: 999;
 }
+
+
+.custom-logo {
+    width: 6rem;
+    margin: 0.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+.menu-toggle {
+    border: none;
+    position: absolute;
+    right: 1rem;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.menu-toggle img {
+    width: 3rem;
+}
+
+.toggled {
+    width: 100vw;
+    height: 21rem;
+    position: absolute;
+    background-color: var(--tan);
+}
+
+
+@media screen and (min-width: 600px) {
+    .hamburger-icon {
+        display: none;
+        height: 0;
+    }
+
+    .menu-primary-nav-container {
+        padding-top: 1rem;
+    }
+
+    #primary-menu {
+        text-align: left;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
 
 /* OUR PAGE: ABOUT */
 .about-page{
@@ -277,39 +333,9 @@ main article {
   input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
   color: black;
 }
-@media screen and (min-width: 600px) {
-    .hamburger-icon {
-        display: none;
-        height: 0;
-    }
 
-    .menu-primary-nav-container {
-        padding-top: 1rem;
-    }
-    
-}
 
-.custom-logo {
-    height: 4rem;
-    width: auto;
-}
 
-.menu-toggle {
-    border: none;
-    position: absolute;
-    right: 1rem;
-    width: 3.5rem;
-    z-index: 20000;
-    height: 3.5rem;
-    /* background: url("https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger-1.png"); */
-}
-
-.toggled {
-    width: 100vw;
-    height: 15rem;
-    position: absolute;
-    background-color: var(--tan);
-}
 
 /* OUR PAGE: HOME */
 
