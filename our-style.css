@@ -701,4 +701,12 @@ padding: 1.5rem;
 
 
 
+    .left-side p{
+        padding: .2rem 0;
+    }
+    .right-side{
+        align-self: center;
+    }
+
+}
 
