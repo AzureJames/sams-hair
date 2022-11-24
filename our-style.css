@@ -19,7 +19,7 @@
 
 h1, h2, h3 {
     font-family: 'Amiri', serif;
-    color: var(--dkgreen);
+    color: var(--secondary);
 }
 
 h1 {
@@ -29,7 +29,7 @@ h1 {
 }
 
 .h1-border {
-    background: var(--peach);
+    background: var(--primary);
     position: relative;
     top: -29px;
     height: 1.3rem;
@@ -46,7 +46,7 @@ h3 {
 
 p, main p, a {
     font-family: 'Poppins', sans-serif;
-    color: var(--dkgreen);
+    color: var(--secondary);
     font-size: calc(1rem + ((1vw - 3px) * 0.4167));
 }
 
@@ -99,18 +99,28 @@ h1, h2, p {
 :root {
     --white: #F9F9F9;
     --black: #2C2B2D;  
-    /* --tan: #E3E3E3;
-   
-    --armygreen: #131313;
-    --redgray: #3C3233;
-    --tangray: #D8C8AF;
-    --peach: #DDC271;
-    --orangish: #97531F;  */
-    --peach: #E7B093;
+    /* --peach: #E7B093;
     --orange: #b7632b;
-    --tan: #dbbeac;
+    --tan: #DDC0B1;
     --dkgreen: #505719;
-    --armygreen: #353912; 
+    --armygreen: #353912;
+    --saddle: #e7e0dc;
+    --dune: #c2b18f;
+    --palmLeaf: #73775a;
+    --jungle: #434836;
+    
+    
+    */
+
+    --primary: #E7B093;
+    --hover: #b7632b;
+    --highlight: #DDC0B1;
+    --secondary: #505719;
+    --thirdc: #353912; 
+    --saddle: #e7e0dc;
+    --dune: #c2b18f;
+    --palmLeaf: #565A44;
+    --jungle: #434836;
 }
 
 .small-img {
@@ -120,7 +130,7 @@ h1, h2, p {
 }
 
 .site-main {
-    background-color: var(--tan);
+    background-color: var(--highlight);
 }
 
 main article {
@@ -131,7 +141,7 @@ main article {
 
 #masthead {
     height: 5rem;
-    background-color: var(--tan);
+    background-color: var(--highlight);
 }
 
 #masthead > .page-container {
@@ -202,7 +212,7 @@ main article {
     width: 100vw;
     height: 21rem;
     position: absolute;
-    background-color: var(--tan);
+    background-color: var(--highlight);
 }
 
 
@@ -305,32 +315,38 @@ main article {
 .contact-message{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color: var(--armygreen);
+    color: var(--thirdc);
     font-size: 1.6rem;
 }
 .contact-form input,
 .contact-form textarea{
     border-radius: 8px;
-    background-color: var(--peach);
+    background-color: var(--saddle);
 }
 .submit input{
-    background-color: var(--armygreen) ;
-    color: var(--tan);
+    background-color: var(--thirdc) ;
+    color: var(--highlight);
 }
 .submit{
     margin-top: 2rem;
 }
 
+.submit input:hover {
+    background-color: var(--dune);
+    color: var(--thirdc);
+}
 
-  .check-box input{
+
+.check-box input{
     margin-right: 0.5rem;
     width: 5rem;
-  }
-  .check-box .wpcf7-list-item{
+}
+
+.check-box .wpcf7-list-item{
     margin: 0;
-  }
+}
   
-  input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
   color: black;
 }
 
@@ -347,13 +363,13 @@ main article {
     margin-bottom: 3rem;
 }
 .banner-h1-bg {
-    background-color: var(--tan);
+    background-color: var(--highlight);
     width: 14rem;
     padding: 1rem;
 }
 
 .banner-h1-bg h1  {
-    color: var(--dkgreen);
+    color: var(--secondary);
 }
 .banner-h1-bg p {
     color: var(--black);
@@ -377,7 +393,7 @@ main article {
 }
 
 .most-pop h2 {
-    color: var(--dkgreen);
+    color: var(--secondary);
     padding: 2rem 0;
     margin: 1rem auto;
     width: fit-content;
@@ -407,15 +423,15 @@ padding: 1.5rem;
     text-decoration: none;
     font-weight: bold;
     border-radius: 12px;
-    background-color: var(--peach);
+    background-color: var(--dune);
     padding: 1rem 7rem;
     color: black;
 }
 
 
 .contact-me-btn:hover {
-    background-color: var(--armygreen);
-    color: var(--orange);
+    background-color: var(--thirdc);
+    color: var(--duneD);
 }
 
   /* OUR PAGE: Footer */
@@ -431,7 +447,7 @@ padding: 1.5rem;
     display: flex;
 }
 .right-side svg{
-    fill: var(--armygreen);
+    fill: var(--thirdc);
 }
 
 
@@ -605,12 +621,12 @@ padding: 1.5rem;
 }
 
 .card-top {
-    background-color: var(--armygreen);
+    background-color: var(--jungle);
     border-radius: 6px 6px 0 0;
 }
 
 .card-top h2 {
-    color: var(--peach);
+    color: var(--saddle);
 }
 
 
@@ -701,7 +717,7 @@ padding: 1.5rem;
 
 .site-footer {
     height: 17rem;
-    background-color: var(--tan);
+    background-color: var(--highlight);
     text-align: center;
     padding-top: 2rem;
 }
