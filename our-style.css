@@ -19,7 +19,7 @@
 
 h1, h2, h3 {
     font-family: 'Amiri', serif;
-    color: var(--dkgreen);
+    color: var(--secondary);
 }
 
 h1 {
@@ -29,7 +29,7 @@ h1 {
 }
 
 .h1-border {
-    background: var(--peach);
+    background: var(--primary);
     position: relative;
     top: -29px;
     height: 1.3rem;
@@ -46,7 +46,7 @@ h3 {
 
 p, main p, a {
     font-family: 'Poppins', sans-serif;
-    color: var(--dkgreen);
+    color: var(--secondary);
     font-size: calc(1rem + ((1vw - 3px) * 0.4167));
 }
 
@@ -99,18 +99,28 @@ h1, h2, p {
 :root {
     --white: #F9F9F9;
     --black: #2C2B2D;  
-    /* --tan: #E3E3E3;
-   
-    --armygreen: #131313;
-    --redgray: #3C3233;
-    --tangray: #D8C8AF;
-    --peach: #DDC271;
-    --orangish: #97531F;  */
-    --peach: #E7B093;
+    /* --peach: #E7B093;
     --orange: #b7632b;
-    --tan: #dbbeac;
+    --tan: #DDC0B1;
     --dkgreen: #505719;
-    --armygreen: #353912; 
+    --armygreen: #353912;
+    --saddle: #e7e0dc;
+    --dune: #c2b18f;
+    --palmLeaf: #73775a;
+    --jungle: #434836;
+    
+    
+    */
+
+    --primary: #E7B093;
+    --hover: #b7632b;
+    --highlight: #DDC0B1;
+    --secondary: #505719;
+    --thirdc: #353912; 
+    --saddle: #e7e0dc;
+    --dune: #c2b18f;
+    --palmLeaf: #565A44;
+    --jungle: #434836;
 }
 
 .small-img {
@@ -120,7 +130,7 @@ h1, h2, p {
 }
 
 .site-main {
-    background-color: var(--tan);
+    background-color: var(--highlight);
 }
 
 main article {
@@ -130,8 +140,8 @@ main article {
 /* OUR HEADER */
 
 #masthead {
-    height: 4rem;
-    background-color: var(--tan);
+    height: 5rem;
+    background-color: var(--highlight);
 }
 
 #masthead > .page-container {
@@ -140,8 +150,10 @@ main article {
 }
 
 #primary-menu {
-    gap: 2rem;
+    gap: 3rem;
+    margin-top: 5rem;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .menu-primary-nav-container {
@@ -175,6 +187,60 @@ main article {
     width: auto;
     z-index: 999;
 }
+
+
+.custom-logo {
+    width: 6rem;
+    margin: 0.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+.menu-toggle {
+    border: none;
+    position: absolute;
+    right: 1rem;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.menu-toggle img {
+    width: 3rem;
+}
+
+.toggled {
+    width: 100vw;
+    height: 21rem;
+    position: absolute;
+    background-color: var(--highlight);
+}
+
+
+@media screen and (min-width: 600px) {
+    .hamburger-icon {
+        display: none;
+        height: 0;
+    }
+
+    .menu-primary-nav-container {
+        padding-top: 1rem;
+    }
+
+    #primary-menu {
+        text-align: left;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
 
 /* OUR PAGE: ABOUT */
 .about-page{
@@ -249,67 +315,43 @@ main article {
 .contact-message{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color: var(--armygreen);
+    color: var(--thirdc);
     font-size: 1.6rem;
 }
 .contact-form input,
 .contact-form textarea{
     border-radius: 8px;
-    background-color: var(--peach);
+    background-color: var(--saddle);
 }
 .submit input{
-    background-color: var(--armygreen) ;
-    color: var(--tan);
+    background-color: var(--thirdc) ;
+    color: var(--highlight);
 }
 .submit{
     margin-top: 2rem;
 }
 
+.submit input:hover {
+    background-color: var(--dune);
+    color: var(--thirdc);
+}
 
-  .check-box input{
+
+.check-box input{
     margin-right: 0.5rem;
     width: 5rem;
-  }
-  .check-box .wpcf7-list-item{
+}
+
+.check-box .wpcf7-list-item{
     margin: 0;
-  }
+}
   
-  input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
   color: black;
 }
-@media screen and (min-width: 600px) {
-    .hamburger-icon {
-        display: none;
-        height: 0;
-    }
 
-    .menu-primary-nav-container {
-        padding-top: 1rem;
-    }
-    
-}
 
-.custom-logo {
-    height: 4rem;
-    width: auto;
-}
 
-.menu-toggle {
-    border: none;
-    position: absolute;
-    right: 1rem;
-    width: 3.5rem;
-    z-index: 20000;
-    height: 3.5rem;
-    /* background: url("https://samlebel.web.dmitcapstone.ca/capstone/SamsHairstyling/wp-content/uploads/2022/10/hamburger-1.png"); */
-}
-
-.toggled {
-    width: 100vw;
-    height: 15rem;
-    position: absolute;
-    background-color: var(--tan);
-}
 
 /* OUR PAGE: HOME */
 
@@ -321,13 +363,13 @@ main article {
     margin-bottom: 3rem;
 }
 .banner-h1-bg {
-    background-color: var(--tan);
+    background-color: var(--highlight);
     width: 14rem;
     padding: 1rem;
 }
 
 .banner-h1-bg h1  {
-    color: var(--dkgreen);
+    color: var(--secondary);
 }
 .banner-h1-bg p {
     color: var(--black);
@@ -351,7 +393,7 @@ main article {
 }
 
 .most-pop h2 {
-    color: var(--dkgreen);
+    color: var(--secondary);
     padding: 2rem 0;
     margin: 1rem auto;
     width: fit-content;
@@ -381,30 +423,15 @@ padding: 1.5rem;
     text-decoration: none;
     font-weight: bold;
     border-radius: 12px;
-    background-color: var(--peach);
+    background-color: var(--dune);
     padding: 1rem 7rem;
     color: black;
 }
 
 
 .contact-me-btn:hover {
-    background-color: var(--armygreen);
-    color: var(--orange);
-}
-  /* OUR PAGE: Footer */
-.left-side p{
-    margin: 0.5rem 0;
-    padding: 0.2rem 0;
-}
-.right-side{
-    margin: 1rem 0;
-  
-}
-.footer-social{
-    display: flex;
-}
-.right-side svg{
-    fill: var(--armygreen);
+    background-color: var(--thirdc);
+    color: var(--duneD);
 }
 
   /* OUR PAGE: Footer */
@@ -420,7 +447,7 @@ padding: 1.5rem;
     display: flex;
 }
 .right-side svg{
-    fill: var(--armygreen);
+    fill: var(--thirdc);
 }
 
 
@@ -480,9 +507,6 @@ padding: 1.5rem;
         margin: 0 auto;
       }
   
-/* OUR PAGE: FOOTER */
-
-/* OUR PAGE: FOOTER */
 
     .upper-footer{
         display: flex;
@@ -597,12 +621,12 @@ padding: 1.5rem;
 }
 
 .card-top {
-    background-color: var(--armygreen);
+    background-color: var(--jungle);
     border-radius: 6px 6px 0 0;
 }
 
 .card-top h2 {
-    color: var(--peach);
+    color: var(--saddle);
 }
 
 
@@ -684,9 +708,6 @@ padding: 1.5rem;
     .flex-1200 > .card{
         display: inline-block;
     }
-    .flex-1200 p {
-        padding-bottom: .5rem;
-    }
 }
 
 
@@ -696,7 +717,7 @@ padding: 1.5rem;
 
 .site-footer {
     height: 17rem;
-    background-color: var(--tan);
+    background-color: var(--highlight);
     text-align: center;
     padding-top: 2rem;
 }
@@ -722,7 +743,13 @@ padding: 1.5rem;
 
 
 
+@media screen and (min-width: 820px) {
 
+    .upper-footer{
+         display: flex;
+         justify-content: center;
+        padding: 0.5rem;
+    }
 
     .left-side p{
         padding: .2rem 0;
@@ -732,4 +759,6 @@ padding: 1.5rem;
     }
 
 }
+
+
 
