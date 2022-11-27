@@ -43,7 +43,6 @@
 			<div class="right-side">
 				<ul class="footer-social">
 
-
 					<li class="instagram"><a href="#"><img src="http://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/insta.png" alt="instagram logo"></a></li>
 
 					<li class="facebook"><a href="#"><img src="http://samlebel.web.dmitcapstone.ca/wp-content/uploads/2022/11/fb.png" alt="fb logo"></a></li>
