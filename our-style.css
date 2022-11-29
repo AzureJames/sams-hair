@@ -250,22 +250,18 @@ main article {
 .about-img-txt{
     padding: 1rem 2rem 1rem 1.5rem;
 }
-.about-content{
-    text-align: justify;
-    height: 417px;
-}
+
+
 .about-content p,
 .approach-content p {
  padding-top: 0.5rem;
  padding-bottom: 0.5rem;
 }
-.approach-content{
-    height: 368px;
-}
+
 
 .approach{
     margin-top: 4rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .approach-heading{
@@ -285,10 +281,19 @@ main article {
 
 /* OUR PAGE: CONTACT */
 
-.contact-me{
-    margin: 0 auto;
-    max-width: 100%;
+.header-bar {
+    max-width: 62rem;
+    margin: 0 auto
 }
+
+.contact-page {
+    
+    margin: 0 auto;
+    max-width: 81rem;
+
+}
+
+
 .contact-form{
     padding: 0 1.5rem;
 }
@@ -303,20 +308,25 @@ main article {
 .box-check input{
     height: 2rem;
 }
-.contact-me h1{
-    text-align: center;
-}
+
 .wpcf7-list-item>label{
     display: flex;
 }
 
 .name,
 .email,
-.contact-message{
+.contact-message,
+.phone{
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: var(--thirdc);
     font-size: 1.6rem;
+    position: relative;
+    z-index: -1;
+}
+
+.contact-message span {
+    font-size: 1rem;
 }
 .contact-form input,
 .contact-form textarea{
@@ -394,7 +404,7 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 
 .most-pop h2 {
     color: var(--secondary);
-    padding: 2rem 0;
+    padding: 2rem 2.5rem;
     margin: 1rem auto;
     width: fit-content;
 }
@@ -412,7 +422,7 @@ padding: 1.5rem;
   /* OUR PAGE: Contact-me */
 .contact-btn {
     margin: 2rem auto;
-    width: fit-content;
+    width: 17rem;
 }
 
 .contact-btn a {
@@ -424,14 +434,15 @@ padding: 1.5rem;
     font-weight: bold;
     border-radius: 12px;
     background-color: var(--dune);
-    padding: 1rem 7rem;
     color: black;
+    width: 10rem;
+    padding: 1rem 5rem;
 }
 
 
 .contact-me-btn:hover {
     background-color: var(--thirdc);
-    color: var(--duneD);
+    color: var(--white);
 }
 
   /* OUR PAGE: Footer */
@@ -452,12 +463,6 @@ padding: 1.5rem;
 
 
 
-@media screen and (min-width: 550px) {
-    .approach{
-        margin-top: -3rem;
-    }
-}
-
 @media screen and (min-width: 600px) {
 
     .banner-h1-bg {
@@ -469,6 +474,21 @@ padding: 1.5rem;
 
 
 @media screen and (min-width: 820px) {
+
+/* CONTACT */
+
+    .desktop-flex-contact {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .desktop-flex-contact div {
+        width: 45%;
+    }
+
+
     /* OUR PAGE: ABOUT */
     .about-img-txt{
         display: flex;
@@ -502,7 +522,7 @@ padding: 1.5rem;
     }
       /* OUR PAGE: Contact-me */
     .contact-form{
-        width: 30rem;
+        max-width: 60rem;
         padding: 0;
         margin: 0 auto;
       }
@@ -547,6 +567,11 @@ padding: 1.5rem;
         background-position-x: 13%;
     }
 
+
+    .contact-btn {
+        width: 20rem;
+    }
+
 }
 
 @media screen and (min-width: 1287px) {
@@ -567,7 +592,6 @@ padding: 1.5rem;
 
     /* OUR PAGE: ABOUT */
     .approach{
-        margin-top: -2rem;
         margin-bottom: 2rem;
     }
 
@@ -595,7 +619,7 @@ padding: 1.5rem;
 
     /* OUR PAGE: ABOUT */
     .approach{
-        margin-top: -5rem;
+      
         margin-bottom: 2rem;
     }
 }
